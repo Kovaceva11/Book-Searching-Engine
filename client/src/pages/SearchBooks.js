@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Jumbotron, Container, Col, Form, Button, Card, CardColumns } from 'react-bootstrap';
 import {useMutation, useQuery} from '@apollo/client';
 import { SAVE_BOOK } from '../utils/mutations';
-import { GET_ME } from '../utils/queries'
+import { GET_ME } from '../utils/queries';
 
 import Auth from '../utils/auth';
 import { searchGoogleBooks } from '../utils/API';
